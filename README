@@ -1,0 +1,20 @@
+usb9pfs utilities
+-----------------
+
+usb9pfs transport 9pfs over a usb gadget.
+
+This repo will record the upstreaming progress towards making usb9pfs
+ready for prime time as an NFS alternative, mainly for embedded systems.
+
+Legend:   [x] upstream   [.] upstreaming in progress   [ ] patches available
+
+[x] Linux kernel support: Added in v6.12
+[.] barebox bootloader support: preparatory patches upstreamed
+[ ] poky-nfsroot
+[ ] runqemu-export-rootfs: 9p support
+    [ ] diod-native recipe
+[ ] diod: fakeroot support hacky, needs some more love
+[.] rsinit: support for specifying UDC as root=device
+
+The current state of the patches is referenced via git submodule
+in this repository.

@@ -1,0 +1,12 @@
+[submodule "diod"]
+	path = diod
+	url = git@github.com:a3f/diod.git
+[submodule "poky"]
+	path = poky
+	url = git@github.com:a3f/poky-nfsroot.git
+[submodule "barebox"]
+	path = barebox
+	url = git@github.com:a3f/barebox.git
+[submodule "rsinit"]
+	path = rsinit
+	url = git@github.com:KarlK90/rsinit.git
